@@ -6,6 +6,8 @@
     <title>The Code Café</title>
     <link rel="icon" href="logo.png" type="image/x-icon">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Poppins:wght@500&display=swap" rel="stylesheet">
     <style>
         footer{
             position: relative;
@@ -19,14 +21,15 @@
           <a href="index.html" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
             <img src="logo.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-20 h-20 p-2 bg-white-500 rounded-full" viewBox="0 0 24 24">
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            <span class="ml-3 text-xl">The Code Café</span>
+            <span class="ml-3 text-xl name">The Code Café</span>
           </a>
           <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a href="index.html" class="mr-5 hover:text-white">Home</a>
-            <a href="contact.html" class="mr-5 hover:text-white">Meet the Team</a>
+            <a href="index.html" class="mr-5 hover:text-white name">Home</a>
+            <a href="contact.html" class="mr-5 hover:text-white name">Meet the Team</a>
+            <a href="volunteer.html" class="mr-5 hover:text-white name">Volunteer</a>
             <!--<a href="testimonials.html" class="mr-5 hover:text-white">Testimonials</a>-->
           </nav>
-          <button onclick="window.location.href='signup.html'" class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Sign Up
+          <button onclick="window.location.href='signup.html'" class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 name">Sign Up
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
@@ -37,35 +40,35 @@
     <section class="text-gray-500 body-font bg-black">
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-20">
-                <h2 class="text-xs text-orange-500 tracking-widest font-medium title-font mb-1">THE CODE CAFÉ</h2>
-                <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Mission</h2>
+                <h2 class="text-3xl text-orange-500 tracking-widest font-medium title-font mb-1 name">The Code Café</h2>
+                <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white name">About Us</h2>
                 <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-                    Our mission at The Code Café is to introduce school students *across India?* to the world of coding. As a team of college students majoring in computer science, we understand the challenges faced by young aspiring coders in starting their coding journey. This is why we at The Code Café are dedicated to providing free virtual coding workshops.
+                  Our mission at The Code Café is to introduce school students to the world of coding. As a team of college students majoring in computer science, we understand the challenges faced by young aspiring coders in starting their coding journey. This is why we at TheCodeCafe are dedicated to providing free virtual coding workshops.
                 </p>
             </div>
             <div class="flex flex-wrap">
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
-                    <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Shooting Stars</h2>
+                    <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2 name">The Advantage</h2>
                     <p class="leading-relaxed text-base mb-4">
-                        Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.
+                      Coding at a young age is essential because just like learning a language, a child's brain is quick to pick up and integrate these skills. It is never too late to start coding, but kids who start at a young have a massive advantage. Learning these skills early on helps build the brain's natural tendency for identifying and applying logic, and provides a wider base for future learning.
                     </p> 
                 </div>
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
-                    <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">The Catalyzer</h2>
+                    <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2 name">The Thought</h2>
                     <p class="leading-relaxed text-base mb-4">
-                        Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.
+                        We teach students history, not all go on to become historians, we teach students economics, not all go on to become economists. We teach students a variety of different subjects to let them figure out for themselves what they’re interested in.
                     </p>
                 </div>
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
-                    <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Neptune</h2>
+                    <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2 name">The Goal</h2>
                     <p class="leading-relaxed text-base mb-4">
-                        Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.
+                      Introducing Coding would definitely spark interest in the subject among students, because they would finally get to use all those ideas that sit in the back of their heads the whole day, and get a break from the regular classes. And one day they could be the founder of a major tech company. 
                     </p>
                 </div>
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
-                    <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2">Melanchole</h2>
+                    <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2 name">The Motto</h2>
                     <p class="leading-relaxed text-base mb-4">
-                        Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.
+                      Do it for you, Do it for your community, Do it to make the world a better place.
                     </p>
                 </div>
             </div>
@@ -74,9 +77,9 @@
     <section class="text-gray-500 bg-black body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">
-            <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">Raw Denim Heirloom Man Braid</h1>
+            <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4 name">Showcase</h1>
             <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.
+                Here are a few projects that we made to demonstrate what you can do with CODING as a BEGINNER.
             </p>
           </div>
           <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
@@ -86,7 +89,7 @@
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span class="title-font font-medium text-white">The Drum Kit</span>
+                <span class="title-font font-medium text-white">Clock</span>
               </div>
             </div>
             <div class="p-2 sm:w-1/2 w-full">
@@ -95,7 +98,7 @@
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span class="title-font font-medium text-white">Clock</span>
+                <span class="title-font font-medium text-white">The Drum Kit</span>
               </div>
             </div>
             <div class="p-2 sm:w-1/2 w-full">
@@ -125,9 +128,9 @@
             <a href="index.html" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
                 <img src="logo.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-20 h-20 text-white p-2 bg-white-500 rounded-full" viewBox="0 0 24 24">
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                <span class="ml-3 text-xl">The Code Café</span>
+                <span class="ml-3 text-xl name">The Code Café</span>
             </a>
-            <p class="text-sm text-gray-600 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2020 The Code Café
+            <p class="text-sm text-gray-600 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4 name">© 2020 The Code Café
             </p>
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                 <a class="text-blue-700">
